@@ -1,0 +1,27 @@
+{
+  "name": "cordova-plugin-fetch-api",
+  "version": "0.0.0",
+  "description": "Cordova Fetch API Plugin",
+  "cordova": {
+    "id": "cordova-plugin-fetch-api",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emonkak/cordova-plugin-fetch-api"
+  },
+  "engines": [
+    {
+      "name": "cordova-ios",
+      "version": ">=4.1.0"
+    }
+  ],
+  "author": "Shota Nozaki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emonkak/cordova-plugin-fetch-api/issues"
+  },
+  "homepage": "https://github.com/emonkak/cordova-plugin-fetch-api"
+}

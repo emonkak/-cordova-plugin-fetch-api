@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-fetch-api" version="0.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>FetchAPI</name>
+    <description>Cordova Fetch API Plugin</description>
+    <repo>https://github.com/emonkak/cordova-plugin-fetch-api</repo>
+    <engines>
+        <engine name="cordova-ios" version=">=4.1.0" />
+    </engines>
+    <js-module name="fetch-api" src="www/fetch-api.js">
+        <clobbers target="cordova.plugins.fetch" />
+    </js-module>
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="FetchAPI">
+                <param name="ios-package" value="CDVFetchAPI"/>
+            </feature>
+        </config-file>
+        <source-file src="src/ios/CDVFetchAPI.swift" />
+    </platform>
+</plugin>
